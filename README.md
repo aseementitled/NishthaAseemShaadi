@@ -18,7 +18,7 @@ Open http://localhost:5173/.
 
 The GitHub Actions workflow in `.github/workflows/deploy-pages.yml` checks, builds, and publishes the wedding website to GitHub Pages whenever changes are pushed to `main`. The repository's Pages source must be set to **GitHub Actions**.
 
-The build uses the repository name as its base path and includes entry files for the RSVP routes, so direct links and refreshes work on GitHub Pages.
+The build reads its base path from GitHub Pages and includes entry files for the RSVP routes, so direct links and refreshes work on both the GitHub address and a custom domain.
 
 ## Check and build
 
